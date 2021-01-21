@@ -15,21 +15,21 @@ c c c c c d d d e e f c . f e f
 . . . f d b f d b f f e f . . . 
 . . . f d d c d d b b d f . . . 
 . . . . f f f f f f f f f . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="Qef-GEuL8bZ0X6DTo(jZ"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="#!Z!=jDLq}JQ]?zDll4C"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="z!Y%Cji([,x5,L%$z|6)"><field name="VAR" id="Tv{c@N_iA:sL7r3pJ=*{">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="4M+@Jcy||Z,F)J~g9(%^"><field name="NUM">150</field></shadow></value><value name="vy"><shadow type="math_number" id="LMIz-VOMB9799`j:C;`x"><field name="NUM">150</field></shadow></value><next><block type="gamesetbackgroundcolor" id="|N6^AD_;{sMe:l6RA19%"><value name="color"><shadow type="colorindexpicker" id="R)Z9TGoV;rr`1rtW}9V{"><field name="index">9</field></shadow></value><next><block type="tilemap_editor" id="Cl(,dfR4[M}lgz_c6wEQ"><field name="tilemap">tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`, [myTiles.transparency16], TileScale.Sixteen)</field></block></next></block></next></block></next></block></statement></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="Qef-GEuL8bZ0X6DTo(jZ"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="#!Z!=jDLq}JQ]?zDll4C"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="z!Y%Cji([,x5,L%$z|6)"><field name="VAR" id="Tv{c@N_iA:sL7r3pJ=*{">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="4M+@Jcy||Z,F)J~g9(%^"><field name="NUM">150</field></shadow></value><value name="vy"><shadow type="math_number" id="LMIz-VOMB9799`j:C;`x"><field name="NUM">150</field></shadow></value><next><block type="gamesetbackgroundcolor" id="|N6^AD_;{sMe:l6RA19%"><value name="color"><shadow type="colorindexpicker" id="R)Z9TGoV;rr`1rtW}9V{"><field name="index">9</field></shadow></value><next><block type="tilemap_editor" id="Cl(,dfR4[M}lgz_c6wEQ"><field name="tilemap">tiles.createTilemap(hex`1000100001010101010101010101010101010101010202020101010101010101010101010101010201010102020101010101010103020202020201020101020101010101010101010102020201010202020202010101020101020101010101010201020101010201010201010102020202010101010102020202010101020101020201010101010101020201010201010101010101010101010201010102010101010101010202010102020202020202020201010101020101010102010101010102010101010202020202020101010101020101010101010102010101010102020202040101010101020101010101020101010101010101010101010101010101010101`, img`
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 . . . 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 . 2 2 2 . . 2 2 2 2 2 2 2 
+. . . . . . 2 . 2 2 . 2 2 2 2 2 
+2 2 2 2 2 . . . 2 2 . . . . . 2 
+2 2 . 2 2 . 2 2 2 2 2 2 . 2 . 2 
+2 2 . 2 2 . 2 2 2 . . . . 2 2 2 
+2 2 . . . . 2 2 2 . 2 2 . . 2 2 
+2 2 2 2 2 . . 2 2 . 2 2 2 2 2 2 
+2 2 2 2 2 . 2 2 2 . 2 2 2 2 2 2 
+2 . . 2 2 . . . . . . . . . 2 2 
+2 2 . 2 2 2 2 . 2 2 2 2 2 . 2 2 
+2 2 . . . . . . 2 2 2 2 2 . 2 2 
+2 2 2 2 2 . 2 2 2 2 2 . . . . . 
+2 2 2 2 2 . 2 2 2 2 2 . 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+`, [myTiles.transparency16,sprites.builtin.forestTiles0,sprites.dungeon.darkGroundCenter,sprites.builtin.brick,sprites.castle.tileDarkGrass2], TileScale.Sixteen)</field><next><block type="mapplaceonrandomtile" id="iuxJ~#0jg]yUD.#l%qHH"><value name="sprite"><block type="variables_get" id="UKMLcOX3eqP@JBwjP]m%"><field name="VAR" id="Tv{c@N_iA:sL7r3pJ=*{">mySprite</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="oc{NG+6N9endl4o4DWw*"><field name="tile">sprites.builtin.brick</field></shadow></value><next><block type="camerafollow" id="_(WH,byZKM-fr{P{tpAa"><value name="sprite"><block type="variables_get" id="Rrx|kv{=s]%bL,lr*tL{"><field name="VAR" id="Tv{c@N_iA:sL7r3pJ=*{">mySprite</field></block></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
