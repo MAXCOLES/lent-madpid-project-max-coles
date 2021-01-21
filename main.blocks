@@ -1,1 +1,35 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="(x*b~?Lut#(FkGjQbjt:" x="0" y="0"/><block type="gamesetbackgroundcolor" id="*Gg3|CdQ5#MbWtL:1]JG" disabled="true" x="380" y="40"><value name="color"><shadow type="colorindexpicker" id="3WTXcede4s-PK`FxX#,a" disabled="true"><field name="index">9</field></shadow></value></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ftgd},]EkjiUcw8tX#!Q">BOB</variable><variable id="Tv{c@N_iA:sL7r3pJ=*{">mySprite</variable><variable type="KIND_SpriteKind" id="{DW!@-^`Bp:VE@#Z$RVv">Player</variable><variable type="KIND_SpriteKind" id="yYtJ%UrgyLfr}G;R*c|h">Projectile</variable><variable type="KIND_SpriteKind" id="%{prV$!h9l!cPdSD-_2h">Food</variable><variable type="KIND_SpriteKind" id="Msw%-[yj/fUU/)5e*5(-">Enemy</variable></variables><block type="pxt-on-start" id="]:X6^6{wLbgnw#|1bu.V" x="30" y="10"><statement name="HANDLER"><block type="variables_set" id="!.@VCGq=w(?Ymw~CRp`b"><field name="VAR" id="Tv{c@N_iA:sL7r3pJ=*{">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="st-I:gXxQs4)=aO$rv*["><value name="img"><shadow type="screen_image_picker" id="T?iy8JCmSFkN,*J=3{*y"><field name="img">img`
+. . . . f f f f f . . . . . . . 
+. . . f e e e e e f . . . . . . 
+. . f d d d d e e e f . . . . . 
+. c d f d d f d e e f f . . . . 
+. c d f d d f d e e d d f . . . 
+c d e e d d d d e e b d c . . . 
+c d d d d c d d e e b d c . f f 
+c c c c c d d d e e f c . f e f 
+. f d d d d d e e f f . . f e f 
+. . f f f f f e e e e f . f e f 
+. . . . f e e e e e e e f f e f 
+. . . f e f f e f e e e e f f . 
+. . . f e f f e f e e e e f . . 
+. . . f d b f d b f f e f . . . 
+. . . f d d c d d b b d f . . . 
+. . . . f f f f f f f f f . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="Qef-GEuL8bZ0X6DTo(jZ"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="#!Z!=jDLq}JQ]?zDll4C"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="z!Y%Cji([,x5,L%$z|6)"><field name="VAR" id="Tv{c@N_iA:sL7r3pJ=*{">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="4M+@Jcy||Z,F)J~g9(%^"><field name="NUM">150</field></shadow></value><value name="vy"><shadow type="math_number" id="LMIz-VOMB9799`j:C;`x"><field name="NUM">150</field></shadow></value><next><block type="gamesetbackgroundcolor" id="|N6^AD_;{sMe:l6RA19%"><value name="color"><shadow type="colorindexpicker" id="R)Z9TGoV;rr`1rtW}9V{"><field name="index">9</field></shadow></value><next><block type="tilemap_editor" id="Cl(,dfR4[M}lgz_c6wEQ"><field name="tilemap">tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen)</field></block></next></block></next></block></next></block></statement></block></xml>
