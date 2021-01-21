@@ -1,3 +1,6 @@
+scene.onOverlapTile(SpriteKind.Player, sprites.castle.tileDarkGrass2, function (sprite, location) {
+    game.over(true)
+})
 let mySprite = sprites.create(img`
     . . . . f f f f f . . . . . . . 
     . . . f e e e e e f . . . . . . 
@@ -38,3 +41,4 @@ tiles.setTilemap(tiles.createTilemap(hex`100010000101010101010101010101010101010
     `, [myTiles.transparency16,sprites.builtin.forestTiles0,sprites.dungeon.darkGroundCenter,sprites.builtin.brick,sprites.castle.tileDarkGrass2], TileScale.Sixteen))
 tiles.placeOnRandomTile(mySprite, sprites.builtin.brick)
 scene.cameraFollowSprite(mySprite)
+info.startCountdown(20)
